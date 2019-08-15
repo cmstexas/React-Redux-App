@@ -7,6 +7,9 @@ import PlayerList from './components/PlayerList';
 function App() {
   return (
     <div className="App">
+      <header>
+      <img className="headimg" src='https://coverfiles.alphacoders.com/555/55583.jpg' /> 
+      </header>
       <PlayerList />
     </div>
   );

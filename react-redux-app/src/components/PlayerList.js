@@ -11,7 +11,7 @@ const PlayerList = props => {
     return (
     <>
     <h1>Welcome to the NBA Player App!</h1>
-    <button onClick={props.getData}>
+    <button className="databutton" onClick={props.getData}>
         {props.isLoading ?
         <Loader 
         type="TailSpin"
